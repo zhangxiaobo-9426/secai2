@@ -172,9 +172,9 @@ MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches
 	android:label
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:21:9-41
 	android:roundIcon
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:22:9-49
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:22:9-54
 	android:icon
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:20:9-44
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme

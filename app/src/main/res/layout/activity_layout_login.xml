@@ -15,11 +15,11 @@
         android:src="@drawable/icon_close"></ImageView>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/dp_60"
-        android:src="@mipmap/icon_jetpack"></ImageView>
+        android:src="@mipmap/ic_launcher"></ImageView>
 
 
     <com.google.android.material.button.MaterialButton

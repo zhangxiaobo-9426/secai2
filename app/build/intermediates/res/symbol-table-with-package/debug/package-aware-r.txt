@@ -1010,6 +1010,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1664,6 +1665,8 @@ drawable icon_wx
 drawable icon_wx_circle
 drawable list_divider
 drawable list_divider_2px
+drawable logo_sc
+drawable logo_secai
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2339,6 +2342,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap icon_jetpack
 navigation mobile_navigation
