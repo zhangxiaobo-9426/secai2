@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\BaiduNetdiskDownload\\androiddemo\\ppjoke_jetpack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
+            "outputFile": "D:\\BaiduNetdiskDownload\\androiddemo\\secai\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\15507\\.gradle\\caches\\transforms-2\\files-2.1\\2ab7697620b113d88305c709d331dc98\\exoplayer-ui-2.10.4\\res\\values-nl\\values-nl.xml",

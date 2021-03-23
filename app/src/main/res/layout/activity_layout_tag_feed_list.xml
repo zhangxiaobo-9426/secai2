@@ -7,17 +7,17 @@
 
         <variable
             name="tagList"
-            type="com.mooc.ppjoke.model.TagList" />
+            type="com.zxb.secai.model.TagList" />
 
         <variable
             name="owner"
             type="androidx.lifecycle.LifecycleOwner" />
 
-        <import type="com.mooc.ppjoke.ui.InteractionPresenter"></import>
+        <import type="com.zxb.secai.ui.InteractionPresenter"></import>
 
     </data>
 
-    <com.mooc.libcommon.view.WindowInsetsFrameLayout
+    <com.zxb.libcommon.view.WindowInsetsFrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -44,7 +44,7 @@
                 app:layout_constraintTop_toTopOf="parent"></ImageView>
 
 
-            <com.mooc.ppjoke.view.PPImageView
+            <com.zxb.secai.view.PPImageView
                 android:id="@+id/tag_logo"
                 android:layout_width="@dimen/dp_30"
                 android:layout_height="@dimen/dp_30"
@@ -54,7 +54,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toRightOf="@id/action_back"
                 app:layout_constraintTop_toTopOf="parent"
-                app:radius="@{8}"></com.mooc.ppjoke.view.PPImageView>
+                app:radius="@{8}"></com.zxb.secai.view.PPImageView>
 
             <TextView
                 android:id="@+id/tag_title"
@@ -98,5 +98,5 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"></View>
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.mooc.libcommon.view.WindowInsetsFrameLayout>
+    </com.zxb.libcommon.view.WindowInsetsFrameLayout>
 </layout>

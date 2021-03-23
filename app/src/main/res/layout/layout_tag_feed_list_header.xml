@@ -7,19 +7,19 @@
 
         <variable
             name="tagList"
-            type="com.mooc.ppjoke.model.TagList" />
+            type="com.zxb.secai.model.TagList" />
 
         <import type="android.view.View"></import>
 
         <import type="android.text.TextUtils"></import>
 
-        <import type="com.mooc.ppjoke.utils.StringConvert"></import>
+        <import type="com.zxb.secai.utils.StringConvert"></import>
 
         <variable
             name="owner"
             type="androidx.lifecycle.LifecycleOwner" />
 
-        <import type="com.mooc.ppjoke.ui.InteractionPresenter"></import>
+        <import type="com.zxb.secai.ui.InteractionPresenter"></import>
 
     </data>
 
@@ -30,7 +30,7 @@
         android:orientation="vertical"
         android:paddingBottom="@dimen/dp_10">
 
-        <com.mooc.ppjoke.view.PPImageView
+        <com.zxb.secai.view.PPImageView
             android:id="@+id/header_background"
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -38,7 +38,7 @@
             app:image_url="@{tagList.background}"
             app:isCircle="@{false}"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"></com.mooc.ppjoke.view.PPImageView>
+            app:layout_constraintTop_toTopOf="parent"></com.zxb.secai.view.PPImageView>
 
 
         <TextView

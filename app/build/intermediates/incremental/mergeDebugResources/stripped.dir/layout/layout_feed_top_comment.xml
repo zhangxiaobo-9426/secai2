@@ -7,23 +7,23 @@
 
                  
                           
-                                                   
+                                                 
 
                  
                                  
                                                        
 
-                                                                 
+                                                               
 
                                                        
 
                                                   
 
-                                                                    
+                                                                  
 
            
 
-    <com.mooc.libcommon.view.CornerFrameLayout
+    <com.zxb.libcommon.view.CornerFrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp_16"
@@ -57,7 +57,7 @@
                 android:orientation="horizontal">
 
 
-                <com.mooc.ppjoke.view.PPImageView
+                <com.zxb.secai.view.PPImageView
                     android:id="@+id/avatar"
                     android:layout_width="@dimen/dp_20"
                     android:layout_height="@dimen/dp_20"
@@ -65,7 +65,7 @@
                                           
                     tools:src="@mipmap/ic_launcher_round">
 
-                </com.mooc.ppjoke.view.PPImageView>
+                </com.zxb.secai.view.PPImageView>
 
                 <TextView
                     android:id="@+id/user_name"
@@ -123,7 +123,7 @@
                 android:layout_marginTop="@dimen/dp_10"
                 android:tag="binding_6"                                                           >
 
-                <com.mooc.ppjoke.view.PPImageView
+                <com.zxb.secai.view.PPImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
@@ -131,7 +131,7 @@
                     android:tag="binding_7"                                                           
                                                        
                                            
-                    tools:src="@mipmap/ic_launcher"></com.mooc.ppjoke.view.PPImageView>
+                    tools:src="@mipmap/ic_launcher"></com.zxb.secai.view.PPImageView>
 
                 <ImageView
                     android:layout_width="@dimen/dp_20"
@@ -142,5 +142,5 @@
             </FrameLayout>
 
         </LinearLayout>
-    </com.mooc.libcommon.view.CornerFrameLayout>
+    </com.zxb.libcommon.view.CornerFrameLayout>
          

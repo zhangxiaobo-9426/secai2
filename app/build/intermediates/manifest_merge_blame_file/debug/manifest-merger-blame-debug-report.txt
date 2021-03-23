@@ -1,45 +1,45 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.mooc.ppjoke"
+3    package="com.zxb.secai"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml
+8-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml
+9-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:6:5-79
-12-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:6:22-76
+12-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:7:5-81
-13-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:7:22-78
+13-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:7:22-78
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:8:5-80
-14-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:8:22-77
+14-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:8:5-80
+14-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:8:22-77
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:9:5-65
-15-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:9:22-62
+15-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:9:5-65
+15-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:9:22-62
 16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-16-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:10:5-71
-16-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:10:22-68
+16-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:10:5-71
+16-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:10:22-68
 17    <uses-permission android:name="android.permission.FLASHLIGHT" />
-17-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:11:5-69
-17-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:11:22-66
+17-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:11:5-69
+17-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:11:22-66
 18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-18-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:12:5-75
-18-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:12:22-72
+18-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:12:5-75
+18-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:12:22-72
 19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-19-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:13:5-76
-19-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:13:22-73
+19-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:13:5-76
+19-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:13:22-73
 20    <uses-permission android:name="android.permission.READ_LOGS" />
-20-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:14:5-68
-20-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:14:22-65
+20-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:14:5-68
+20-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:14:22-65
 21    <uses-permission android:name="android.permission.WAKE_LOCK" />
 21-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:25:5-68
 21-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:25:22-65
@@ -51,133 +51,133 @@
 23-->[com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\6936847acf8a63fef6ec83144f18f6d6\oss-android-sdk-2.9.5\AndroidManifest.xml:15:22-73
 24
 25    <application
-25-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:17:5-88:19
-26        android:name="com.mooc.ppjoke.JokeApplication"
-26-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:18:9-40
+25-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:17:5-88:19
+26        android:name="com.zxb.secai.JokeApplication"
+26-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:18:9-53
 27        android:allowBackup="true"
-27-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:19:9-35
+27-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:19:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/icon_jetpack"
-30-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:20:9-44
+30-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:20:9-44
 31        android:label="@string/app_name"
-31-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:21:9-41
+31-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:21:9-41
 32        android:roundIcon="@mipmap/icon_jetpack"
-32-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:22:9-49
+32-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:22:9-49
 33        android:supportsRtl="true"
-33-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:23:9-35
+33-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:23:9-35
 34        android:testOnly="true"
 35        android:theme="@style/AppTheme"
-35-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:24:9-40
+35-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:24:9-40
 36        android:usesCleartextTraffic="true" >
-36-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:25:9-44
+36-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:25:9-44
 37
 38        <!-- 这是是QQ快捷登录SDK 里面包含但没用的 apache的类，需要在这里通过uses-library去除掉 -->
 39        <uses-library
-39-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:27:9-29:40
+39-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:27:9-29:40
 40            android:name="org.apache.http.legacy"
-40-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:28:13-50
+40-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:28:13-50
 41            android:required="false" />
-41-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:29:13-37
+41-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:29:13-37
 42
 43        <activity
-43-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:31:9-40:20
-44            android:name="com.mooc.ppjoke.MainActivity"
-44-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:32:13-41
+43-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:31:9-40:20
+44            android:name="com.zxb.secai.MainActivity"
+44-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:32:13-54
 45            android:label="@string/app_name"
-45-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:33:13-45
+45-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:33:13-45
 46            android:theme="@style/launcher" >
-46-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:34:13-44
+46-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:34:13-44
 47            <intent-filter>
-47-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:35:13-39:29
+47-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:35:13-39:29
 48                <action android:name="android.intent.action.MAIN" />
-48-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:36:17-69
-48-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:36:25-66
+48-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:36:17-69
+48-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:36:25-66
 49
 50                <category android:name="android.intent.category.LAUNCHER" />
-50-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:38:17-77
-50-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:38:27-74
+50-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:38:17-77
+50-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:38:27-74
 51            </intent-filter>
 52        </activity>
 53        <activity
-53-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:42:9-44:61
-54            android:name="com.mooc.ppjoke.ui.publish.PublishActivity"
-54-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:43:13-55
+53-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:42:9-44:61
+54            android:name="com.zxb.secai.ui.publish.PublishActivity"
+54-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:43:13-68
 55            android:screenOrientation="portrait" />
-55-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:44:13-49
+55-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:44:13-49
 56        <activity
-56-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:45:9-48:55
-57            android:name="com.mooc.ppjoke.ui.publish.CaptureActivity"
-57-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:46:13-55
+56-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:45:9-48:55
+57            android:name="com.zxb.secai.ui.publish.CaptureActivity"
+57-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:46:13-68
 58            android:screenOrientation="portrait"
-58-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:47:13-49
+58-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:47:13-49
 59            android:theme="@style/capture" />
-59-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:48:13-43
+59-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:48:13-43
 60        <activity
-60-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:50:9-53:55
-61            android:name="com.mooc.ppjoke.ui.publish.PreviewActivity"
-61-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:51:13-55
+60-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:50:9-53:55
+61            android:name="com.zxb.secai.ui.publish.PreviewActivity"
+61-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:51:13-68
 62            android:screenOrientation="portrait"
-62-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:52:13-49
+62-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:52:13-49
 63            android:theme="@style/preview" />
-63-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:53:13-43
-64        <activity android:name="com.mooc.ppjoke.ui.login.LoginActivity" />
-64-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:55:9-69
-64-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:55:19-57
+63-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:53:13-43
+64        <activity android:name="com.zxb.secai.ui.login.LoginActivity" />
+64-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:55:9-82
+64-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:55:19-70
 65        <activity
-65-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:57:9-60:58
-66            android:name="com.mooc.ppjoke.ui.detail.FeedDetailActivity"
-66-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:58:13-57
+65-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:57:9-60:58
+66            android:name="com.zxb.secai.ui.detail.FeedDetailActivity"
+66-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:58:13-70
 67            android:screenOrientation="portrait"
-67-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:59:13-49
+67-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:59:13-49
 68            android:theme="@style/feedDetail" />
-68-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:60:13-46
-69        <activity android:name="com.mooc.ppjoke.ui.find.TagFeedListActivity" />
-69-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:62:9-74
-69-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:62:19-62
-70        <activity android:name="com.mooc.ppjoke.ui.my.ProfileActivity" />
-70-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:64:9-68
-70-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:64:19-56
-71        <activity android:name="com.mooc.ppjoke.ui.my.UserBehaviorListActivity" />
-71-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:66:9-77
-71-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:66:19-65
+68-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:60:13-46
+69        <activity android:name="com.zxb.secai.ui.find.TagFeedListActivity" />
+69-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:62:9-87
+69-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:62:19-75
+70        <activity android:name="com.zxb.secai.ui.my.ProfileActivity" />
+70-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:64:9-81
+70-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:64:19-69
+71        <activity android:name="com.zxb.secai.ui.my.UserBehaviorListActivity" />
+71-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:66:9-90
+71-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:66:19-78
 72
 73        <!-- 注册SDKActivity -->
 74        <activity
-74-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:70:9-83:20
+74-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:70:9-83:20
 75            android:name="com.tencent.tauth.AuthActivity"
-75-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:71:13-58
+75-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:71:13-58
 76            android:launchMode="singleTask"
-76-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:72:13-44
+76-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:72:13-44
 77            android:noHistory="true"
-77-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:73:13-37
+77-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:73:13-37
 78            android:screenOrientation="portrait" >
-78-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:74:13-49
+78-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:74:13-49
 79            <intent-filter>
-79-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:75:13-82:29
+79-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:75:13-82:29
 80                <action android:name="android.intent.action.VIEW" />
-80-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:76:17-69
-80-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:76:25-66
+80-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:76:17-69
+80-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:76:25-66
 81
 82                <category android:name="android.intent.category.DEFAULT" />
-82-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:78:17-76
-82-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:78:27-73
+82-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:78:17-76
+82-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:78:27-73
 83                <category android:name="android.intent.category.BROWSABLE" />
-83-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:79:17-78
-83-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:79:27-75
+83-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:79:17-78
+83-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:79:27-75
 84
 85                <data android:scheme="tencent101941206" />
-85-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:81:17-59
-85-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:81:23-56
+85-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:81:17-59
+85-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:81:23-56
 86            </intent-filter>
 87        </activity>
 88        <activity
-88-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:84:9-86:75
+88-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:84:9-86:75
 89            android:name="com.tencent.connect.common.AssistActivity"
-89-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:85:13-69
+89-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:85:13-69
 90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-90-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\src\main\AndroidManifest.xml:86:13-72
+90-->D:\BaiduNetdiskDownload\androiddemo\secai\app\src\main\AndroidManifest.xml:86:13-72
 91
 92        <uses-library
 92-->[androidx.camera:camera-extensions:1.0.0-alpha01] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\f024caac7062f14611ef955da7aca8e5\camera-extensions-1.0.0-alpha01\AndroidManifest.xml:25:9-27:40
@@ -190,7 +190,7 @@
 96-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1e35958c3eec77d958b8c339fff6b0ac\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:25:9-30:43
 97            android:name="androidx.camera.camera2.impl.Camera2Initializer"
 97-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1e35958c3eec77d958b8c339fff6b0ac\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:26:13-75
-98            android:authorities="com.mooc.ppjoke.camerax-init"
+98            android:authorities="com.zxb.secai.camerax-init"
 98-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1e35958c3eec77d958b8c339fff6b0ac\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:27:13-64
 99            android:exported="false"
 99-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1e35958c3eec77d958b8c339fff6b0ac\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:28:13-37
@@ -202,7 +202,7 @@
 102-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
 103            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
 103-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-104            android:authorities="com.mooc.ppjoke.lifecycle-process"
+104            android:authorities="com.zxb.secai.lifecycle-process"
 104-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
 105            android:exported="false"
 105-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
@@ -212,7 +212,7 @@
 107-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:30:9-36:35
 108            android:name="androidx.work.impl.WorkManagerInitializer"
 108-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:31:13-69
-109            android:authorities="com.mooc.ppjoke.workmanager-init"
+109            android:authorities="com.zxb.secai.workmanager-init"
 109-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:32:13-68
 110            android:directBootAware="false"
 110-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:33:13-44

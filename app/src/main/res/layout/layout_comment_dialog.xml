@@ -23,11 +23,11 @@
             android:layout_marginBottom="@dimen/dp_5"
             android:visibility="gone">
 
-            <com.mooc.ppjoke.view.PPImageView
+            <com.zxb.secai.view.PPImageView
                 android:id="@+id/comment_cover"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="centerCrop"></com.mooc.ppjoke.view.PPImageView>
+                android:scaleType="centerCrop"></com.zxb.secai.view.PPImageView>
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/comment_icon_video"
@@ -60,7 +60,7 @@
             android:paddingLeft="@dimen/dimen_10"
             android:paddingRight="@dimen/dimen_10">
 
-            <com.mooc.libcommon.view.PPEditTextView
+            <com.zxb.libcommon.view.PPEditTextView
                 android:id="@+id/input_view"
                 android:layout_width="0dp"
                 android:layout_height="35dp"
@@ -71,7 +71,7 @@
                 android:paddingLeft="@dimen/sp_10"
                 android:textColor="@color/color_333"
                 android:textColorHint="@color/color_999"
-                android:textSize="@dimen/sp_12"></com.mooc.libcommon.view.PPEditTextView>
+                android:textSize="@dimen/sp_12"></com.zxb.libcommon.view.PPEditTextView>
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/comment_video"

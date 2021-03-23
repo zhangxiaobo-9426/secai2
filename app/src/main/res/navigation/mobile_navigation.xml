@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.mooc.ppjoke.ui.home.HomeFragment"
+        android:name="com.zxb.secai.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <argument
@@ -27,13 +27,13 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.mooc.ppjoke.ui.sofa.SofaFragment"
+        android:name="com.zxb.secai.ui.sofa.SofaFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_sofa" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.mooc.ppjoke.ui.find.FindFragment"
+        android:name="com.zxb.secai.ui.find.FindFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_find" />
 </navigation>

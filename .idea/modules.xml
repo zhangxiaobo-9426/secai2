@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/libnavannotation/libnavannotation.iml" filepath="$PROJECT_DIR$/libnavannotation/libnavannotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/libnavcompiler/libnavcompiler.iml" filepath="$PROJECT_DIR$/libnavcompiler/libnavcompiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/libnetwork/libnetwork.iml" filepath="$PROJECT_DIR$/libnetwork/libnetwork.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ppjoke.iml" filepath="$PROJECT_DIR$/ppjoke.iml" />
+      <module fileurl="file://$PROJECT_DIR$/secai.iml" filepath="$PROJECT_DIR$/secai.iml" />
     </modules>
   </component>
 </project>

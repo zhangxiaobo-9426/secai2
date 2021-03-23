@@ -7,7 +7,7 @@
 
         <variable
             name="feed"
-            type="com.mooc.ppjoke.model.Feed" />
+            type="com.zxb.secai.model.Feed" />
 
         <variable
             name="fullscreen"
@@ -15,7 +15,7 @@
 
         <import type="android.view.View" />
 
-        <import type="com.mooc.ppjoke.ui.InteractionPresenter"></import>
+        <import type="com.zxb.secai.ui.InteractionPresenter"></import>
 
         <import type="android.content.Context"></import>
 

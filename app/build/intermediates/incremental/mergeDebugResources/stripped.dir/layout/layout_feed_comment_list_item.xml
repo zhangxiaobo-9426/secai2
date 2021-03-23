@@ -7,17 +7,17 @@
 
                  
                           
-                                                   
+                                                 
 
                                                        
 
                                                   
 
-                                                                     
+                                                                   
 
-                                                                
+                                                              
 
-                                                                        
+                                                                      
 
                  
                         
@@ -32,7 +32,7 @@
         android:orientation="vertical"
         android:paddingBottom="@dimen/dp_10" android:tag="layout/layout_feed_comment_list_item_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
-        <com.mooc.ppjoke.view.PPImageView
+        <com.zxb.secai.view.PPImageView
             android:id="@+id/author_avatar"
             android:layout_width="@dimen/dp_40"
             android:layout_height="@dimen/dp_40"
@@ -42,7 +42,7 @@
                                   
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/splash"></com.mooc.ppjoke.view.PPImageView>
+            tools:src="@drawable/splash"></com.zxb.secai.view.PPImageView>
 
         <TextView
             android:id="@+id/author_name"
@@ -148,7 +148,7 @@
             app:layout_constraintLeft_toRightOf="@+id/author_avatar"
             app:layout_constraintTop_toBottomOf="@id/comment_text">
 
-            <com.mooc.ppjoke.view.PPImageView
+            <com.zxb.secai.view.PPImageView
                 android:id="@+id/comment_cover"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -158,7 +158,7 @@
                 tools:layout_height="100dp"
                 tools:layout_width="100dp">
 
-            </com.mooc.ppjoke.view.PPImageView>
+            </com.zxb.secai.view.PPImageView>
 
             <ImageView
                 android:id="@+id/video_icon"

@@ -6,15 +6,15 @@
 
         <variable
             name="feed"
-            type="com.mooc.ppjoke.model.Feed" />
+            type="com.zxb.secai.model.Feed" />
 
         <variable
             name="fullscreen"
             type="java.lang.Boolean" />
 
-        <import type="com.mooc.ppjoke.ui.InteractionPresenter"></import>
+        <import type="com.zxb.secai.ui.InteractionPresenter"></import>
 
-        <import type="com.mooc.libcommon.utils.PixUtils"></import>
+        <import type="com.zxb.libcommon.utils.PixUtils"></import>
 
     </data>
 
@@ -24,13 +24,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.mooc.ppjoke.view.FullScreenPlayerView
+        <com.zxb.secai.view.FullScreenPlayerView
             android:id="@+id/player_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_behavior=".ui.detail.ViewZoomBehavior"
             app:min_height="200dp"
-            app:scrolling_id="@+id/recycler_view"></com.mooc.ppjoke.view.FullScreenPlayerView>
+            app:scrolling_id="@+id/recycler_view"></com.zxb.secai.view.FullScreenPlayerView>
 
 
         <include

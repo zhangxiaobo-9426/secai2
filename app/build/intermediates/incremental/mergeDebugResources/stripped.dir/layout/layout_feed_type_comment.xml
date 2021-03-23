@@ -12,7 +12,7 @@
                                  
                                                        
 
-                                                           
+                                                         
 
                                                   
 
@@ -35,7 +35,7 @@
                                                          
                             ></include>
 
-        <com.mooc.libcommon.view.CornerLinearLayout
+        <com.zxb.libcommon.view.CornerLinearLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_40"
             android:layout_marginLeft="@dimen/dimen_16"
@@ -63,14 +63,14 @@
                 android:layout_width="@dimen/dp_40"
                 android:layout_height="@dimen/dp_40">
 
-                <com.mooc.ppjoke.view.PPImageView
+                <com.zxb.secai.view.PPImageView
                     android:id="@+id/icon_cover"
                     android:tag="binding_2"  
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
                     app:clip_radius="6dp"
-                    app:clip_side="right"></com.mooc.ppjoke.view.PPImageView>
+                    app:clip_side="right"></com.zxb.secai.view.PPImageView>
 
                 <ImageView
                     android:id="@+id/icon_video"
@@ -81,7 +81,7 @@
                     android:tag="binding_3"                                                      ></ImageView>
             </FrameLayout>
 
-        </com.mooc.libcommon.view.CornerLinearLayout>
+        </com.zxb.libcommon.view.CornerLinearLayout>
 
 
         <include

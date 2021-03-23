@@ -7,7 +7,7 @@
 
                  
                        
-                                                
+                                              
 
                  
                              
@@ -17,9 +17,9 @@
                              
                                        
 
-                                                         
+                                                       
 
-                                                                        
+                                                                      
 
                  
                         
@@ -37,7 +37,7 @@
         android:paddingBottom="@dimen/dp_3" android:tag="layout/layout_feed_detail_author_info_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
 
-        <com.mooc.ppjoke.view.PPImageView
+        <com.zxb.secai.view.PPImageView
             android:id="@+id/author_avatar"
             android:layout_width="@dimen/dp_40"
             android:layout_height="@dimen/dp_40"
@@ -47,7 +47,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/icon_splash_text"></com.mooc.ppjoke.view.PPImageView>
+            tools:src="@drawable/icon_splash_text"></com.zxb.secai.view.PPImageView>
 
         <TextView
             android:id="@+id/author_name"

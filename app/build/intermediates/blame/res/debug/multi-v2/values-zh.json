@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\BaiduNetdiskDownload\\androiddemo\\ppjoke_jetpack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "D:\\BaiduNetdiskDownload\\androiddemo\\secai\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
                     "source": "C:\\Users\\15507\\.gradle\\caches\\transforms-2\\files-2.1\\a447e9fbd4392dff80a51d09fb0dd0e5\\jetified-SmartRefreshHeader-1.1.0\\res\\values-zh\\values-zh.xml",

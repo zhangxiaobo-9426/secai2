@@ -1,26 +1,26 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.mooc.libcommon.test" >
+3    package="com.zxb.libcommon.test" >
 4
 5    <uses-sdk
-5-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:5:5-74
+5-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:5:15-41
+6-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:5:42-71
+7-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:11:5-15:73
+9-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:11:5-15:72
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:11:22-76
+10-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:14:22-52
+11-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:13:22-53
-13        android:label="Tests for com.mooc.libcommon.test"
-13-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:15:22-71
-14        android:targetPackage="com.mooc.libcommon.test" />
-14-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:12:22-69
+12-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:13:22-53
+13        android:label="Tests for com.zxb.libcommon.test"
+13-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:15:22-70
+14        android:targetPackage="com.zxb.libcommon.test" />
+14-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:12:22-68
 15
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 16-->[com.google.android.exoplayer:exoplayer-core:2.10.4] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\14d3645e69aad015807caaf33831b2fb\jetified-exoplayer-core-2.10.4\AndroidManifest.xml:24:5-79
@@ -45,24 +45,24 @@
 22-->[com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\6936847acf8a63fef6ec83144f18f6d6\oss-android-sdk-2.9.5\AndroidManifest.xml:15:22-73
 23
 24    <application
-24-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:7:5-9:19
+24-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:7:5-9:19
 25        android:allowBackup="true"
 25-->[com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\6936847acf8a63fef6ec83144f18f6d6\oss-android-sdk-2.9.5\AndroidManifest.xml:18:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 27        android:debuggable="true"
-27-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:7:18-43
+27-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:7:18-43
 28        android:label="@string/app_name" >
 28-->[com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\6936847acf8a63fef6ec83144f18f6d6\oss-android-sdk-2.9.5\AndroidManifest.xml:19:9-41
 29        <uses-library android:name="android.test.runner" />
-29-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:8:9-60
-29-->D:\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8309638026986892131.xml:8:23-57
+29-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:8:9-60
+29-->D:\BaiduNetdiskDownload\androiddemo\secai\libcommon\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4674509324831183536.xml:8:23-57
 30
 31        <provider
 31-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:30:9-36:35
 32            android:name="androidx.work.impl.WorkManagerInitializer"
 32-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:31:13-69
-33            android:authorities="com.mooc.libcommon.test.workmanager-init"
+33            android:authorities="com.zxb.libcommon.test.workmanager-init"
 33-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:32:13-68
 34            android:directBootAware="false"
 34-->[androidx.work:work-runtime:2.2.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\d8be0da5942a89c2846b3d27d6457880\work-runtime-2.2.0\AndroidManifest.xml:33:13-44
@@ -240,7 +240,7 @@
 123-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1e35958c3eec77d958b8c339fff6b0ac\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:25:9-30:43
 124            android:name="androidx.camera.camera2.impl.Camera2Initializer"
 124-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1e35958c3eec77d958b8c339fff6b0ac\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:26:13-75
-125            android:authorities="com.mooc.libcommon.test.camerax-init"
+125            android:authorities="com.zxb.libcommon.test.camerax-init"
 125-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1e35958c3eec77d958b8c339fff6b0ac\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:27:13-64
 126            android:exported="false"
 126-->[androidx.camera:camera-camera2:1.0.0-alpha04] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1e35958c3eec77d958b8c339fff6b0ac\camera-camera2-1.0.0-alpha04\AndroidManifest.xml:28:13-37
@@ -252,7 +252,7 @@
 129-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
 130            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
 130-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-131            android:authorities="com.mooc.libcommon.test.lifecycle-process"
+131            android:authorities="com.zxb.libcommon.test.lifecycle-process"
 131-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
 132            android:exported="false"
 132-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37

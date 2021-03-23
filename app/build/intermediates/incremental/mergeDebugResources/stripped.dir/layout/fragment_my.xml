@@ -7,9 +7,9 @@
 
                  
                        
-                                                
+                                              
 
-                                                                    
+                                                                  
 
            
 
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" android:tag="layout/fragment_my_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
-        <com.mooc.ppjoke.view.PPImageView
+        <com.zxb.secai.view.PPImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:tag="binding_1"      
@@ -25,7 +25,7 @@
             app:layout_constraintTop_toTopOf="parent"
                               
             android:scaleType="fitXY"
-            tools:background="#ff0000"></com.mooc.ppjoke.view.PPImageView>
+            tools:background="#ff0000"></com.zxb.secai.view.PPImageView>
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/action_logout"
@@ -38,7 +38,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"></androidx.appcompat.widget.AppCompatImageView>
 
-        <com.mooc.ppjoke.view.PPImageView
+        <com.zxb.secai.view.PPImageView
             android:id="@+id/avatar"
             android:layout_width="@dimen/dp_45"
             android:layout_height="@dimen/dp_45"
@@ -49,7 +49,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
                              
-            tools:src="@mipmap/ic_launcher_round"></com.mooc.ppjoke.view.PPImageView>
+            tools:src="@mipmap/ic_launcher_round"></com.zxb.secai.view.PPImageView>
 
         <TextView
             android:id="@+id/name"

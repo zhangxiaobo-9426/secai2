@@ -128,10 +128,10 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/action_add_tag">
 
-            <com.mooc.ppjoke.view.PPImageView
+            <com.zxb.secai.view.PPImageView
                 android:id="@+id/cover"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"></com.mooc.ppjoke.view.PPImageView>
+                android:layout_height="wrap_content"></com.zxb.secai.view.PPImageView>
 
             <ImageView
                 android:id="@+id/video_icon"

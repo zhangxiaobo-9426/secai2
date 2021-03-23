@@ -89,7 +89,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: __local_aars__:D.\BaiduNetdiskDownload\androiddemo\ppjoke_jetpack\app\libs\open_sdk_r6140_lite.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:D.\BaiduNetdiskDownload\androiddemo\secai\app\libs\open_sdk_r6140_lite.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.databinding:databinding-common:3.5.3@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0@jar" level="project" />
@@ -161,13 +161,7 @@
     <orderEntry type="library" name="Gradle: jp.wasabeef:glide-transformations:4.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.chrisbanes:PhotoView:2.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.aliyun.dpa:oss-android-sdk:2.9.5@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.tencent.bugly:crashreport:3.3.7@aar" level="project" />
-    <orderEntry type="module" module-name="libcommon" />
-    <orderEntry type="module" module-name="libnetwork" />
-    <orderEntry type="module" module-name="libnavannotation" />
-    <orderEntry type="module" module-name="libcommon" />
-    <orderEntry type="module" module-name="libnetwork" />
-    <orderEntry type="module" module-name="libnavannotation" />
+    <orderEntry type="library" name="Gradle: com.tencent.bugly:crashreport:3.3.9@aar" level="project" />
     <orderEntry type="module" module-name="libcommon" />
     <orderEntry type="module" module-name="libnetwork" />
     <orderEntry type="module" module-name="libnavannotation" />

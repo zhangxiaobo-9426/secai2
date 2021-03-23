@@ -6,9 +6,9 @@
 
         <variable
             name="feed"
-            type="com.mooc.ppjoke.model.Feed" />
+            type="com.zxb.secai.model.Feed" />
 
-        <import type="com.mooc.libcommon.utils.PixUtils"></import>
+        <import type="com.zxb.libcommon.utils.PixUtils"></import>
     </data>
 
     <LinearLayout
@@ -32,11 +32,11 @@
             app:feedText="@{feed.feeds_text}"
             app:lines="@{1000}"></include>
 
-        <com.mooc.ppjoke.view.PPImageView
+        <com.zxb.secai.view.PPImageView
             android:id="@+id/header_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/dp_10"></com.mooc.ppjoke.view.PPImageView>
+            android:layout_marginBottom="@dimen/dp_10"></com.zxb.secai.view.PPImageView>
 
         <View
             android:layout_width="match_parent"

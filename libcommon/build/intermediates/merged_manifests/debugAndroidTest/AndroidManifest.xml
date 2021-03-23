@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mooc.libcommon.test" >
+    package="com.zxb.libcommon.test" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -10,8 +10,8 @@
         android:name="androidx.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.mooc.libcommon.test"
-        android:targetPackage="com.mooc.libcommon.test" />
+        android:label="Tests for com.zxb.libcommon.test"
+        android:targetPackage="com.zxb.libcommon.test" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -30,7 +30,7 @@
 
         <provider
             android:name="androidx.work.impl.WorkManagerInitializer"
-            android:authorities="com.mooc.libcommon.test.workmanager-init"
+            android:authorities="com.zxb.libcommon.test.workmanager-init"
             android:directBootAware="false"
             android:exported="false"
             android:multiprocess="true" />
@@ -122,13 +122,13 @@
 
         <provider
             android:name="androidx.camera.camera2.impl.Camera2Initializer"
-            android:authorities="com.mooc.libcommon.test.camerax-init"
+            android:authorities="com.zxb.libcommon.test.camerax-init"
             android:exported="false"
             android:initOrder="100"
             android:multiprocess="true" />
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.mooc.libcommon.test.lifecycle-process"
+            android:authorities="com.zxb.libcommon.test.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>
