@@ -25,6 +25,7 @@ import com.zxb.secai.ui.InteractionPresenter;
 import com.zxb.secai.ui.detail.FeedDetailActivity;
 import com.zxb.secai.view.ListPlayerView;
 
+
 public class FeedAdapter extends AbsPagedListAdapter<Feed, FeedAdapter.ViewHolder> {
     private final LayoutInflater inflater;
     protected Context mContext;
