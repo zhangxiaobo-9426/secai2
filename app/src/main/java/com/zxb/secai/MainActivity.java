@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     private NavController navController;
     private AppBottomBar navView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //由于 启动时设置了 R.style.launcher 的windowBackground属性
