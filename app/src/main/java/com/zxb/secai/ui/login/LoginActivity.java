@@ -87,6 +87,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
     };
 
+    //获取用户信息
     private void getUserInfo(QQToken qqToken, long expires_time, String openid) {
         UserInfo userInfo = new UserInfo(getApplicationContext(), qqToken);
         userInfo.getUserInfo(new IUiListener() {

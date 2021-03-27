@@ -167,5 +167,8 @@
     <orderEntry type="library" name="Gradle: com.github.chrisbanes:PhotoView:2.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.aliyun.dpa:oss-android-sdk:2.9.5@aar" level="project" />
     <orderEntry type="module" module-name="libcommon" />
+    <orderEntry type="module" module-name="libcommon" />
+    <orderEntry type="module" module-name="libcommon" />
+    <orderEntry type="module" module-name="libcommon" />
   </component>
 </module>

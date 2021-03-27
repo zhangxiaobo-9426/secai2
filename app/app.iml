@@ -165,5 +165,14 @@
     <orderEntry type="module" module-name="libcommon" />
     <orderEntry type="module" module-name="libnetwork" />
     <orderEntry type="module" module-name="libnavannotation" />
+    <orderEntry type="module" module-name="libcommon" />
+    <orderEntry type="module" module-name="libnetwork" />
+    <orderEntry type="module" module-name="libnavannotation" />
+    <orderEntry type="module" module-name="libcommon" />
+    <orderEntry type="module" module-name="libnetwork" />
+    <orderEntry type="module" module-name="libnavannotation" />
+    <orderEntry type="module" module-name="libcommon" />
+    <orderEntry type="module" module-name="libnetwork" />
+    <orderEntry type="module" module-name="libnavannotation" />
   </component>
 </module>

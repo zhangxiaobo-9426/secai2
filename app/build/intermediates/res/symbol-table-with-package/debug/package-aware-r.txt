@@ -1081,6 +1081,7 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color my_bule
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -1676,6 +1677,7 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable my_bg
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1862,6 +1864,8 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_password
+id et_username
 id exitUntilCollapsed
 id exo_ad_overlay
 id exo_artwork
@@ -2460,9 +2464,12 @@ string has_collect
 string has_follow
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string input_password
 string like
 string like_count
 string login_text
+string login_user_hint
+string logining
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
@@ -2497,6 +2504,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string password
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2542,6 +2550,7 @@ string title_home
 string title_notifications
 string unfollow
 string upload_text
+string username
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -3236,6 +3245,7 @@ style feedDetail
 style inActive
 style launcher
 style materialButton
+style my
 style preview
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity

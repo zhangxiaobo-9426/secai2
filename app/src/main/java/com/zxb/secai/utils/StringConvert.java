@@ -7,7 +7,7 @@ import android.text.Spanned;
 import android.text.style.AbsoluteSizeSpan;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
-
+//判断文本如果大于1000 就1万
 public class StringConvert {
 
     public static String convertFeedUgc(int count) {

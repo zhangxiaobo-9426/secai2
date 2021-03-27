@@ -69,6 +69,7 @@ public class PPImageView extends AppCompatImageView {
         bindData(widthPx, heightPx, marginLeft, PixUtils.getScreenWidth(), PixUtils.getScreenWidth(), imageUrl);
     }
 
+    //根据图片宽高动态绑定图片
     public void bindData(int widthPx, int heightPx, final int marginLeft, final int maxWidth, final int maxHeight, String imageUrl) {
         if (TextUtils.isEmpty(imageUrl)) {
             setVisibility(GONE);
@@ -93,7 +94,7 @@ public class PPImageView extends AppCompatImageView {
         setSize(widthPx, heightPx, marginLeft, maxWidth, maxHeight);
         setImageUrl(this, imageUrl, false);
     }
-
+    //设置大小，宽高自适应
     private void setSize(int width, int height, int marginLeft, int maxWidth, int maxHeight) {
         int finalWidth, finalHeight;
         if (width > height) {
@@ -115,6 +116,7 @@ public class PPImageView extends AppCompatImageView {
         setLayoutParams(params);
     }
 
+    //设置高斯模糊背景图
     @BindingAdapter(value = {"blur_url", "radius"})
     public static void setBlurImageUrl(ImageView imageView, String blurUrl, int radius) {
         Glide.with(imageView).load(blurUrl).override(radius)

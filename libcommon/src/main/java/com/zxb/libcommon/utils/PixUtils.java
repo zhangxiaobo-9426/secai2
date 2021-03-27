@@ -11,11 +11,12 @@ public class PixUtils {
         return (int) (metrics.density * dpValue + 0.5f);
     }
 
+//    获取屏幕宽度
     public static int getScreenWidth() {
         DisplayMetrics metrics = AppGlobals.getApplication().getResources().getDisplayMetrics();
         return metrics.widthPixels;
     }
-
+    //    获取屏幕高度
     public static int getScreenHeight() {
         DisplayMetrics metrics = AppGlobals.getApplication().getResources().getDisplayMetrics();
         return metrics.heightPixels;

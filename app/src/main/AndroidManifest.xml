@@ -52,7 +52,8 @@
             android:screenOrientation="portrait"
             android:theme="@style/preview"></activity>
 
-        <activity android:name="com.zxb.secai.ui.login.LoginActivity"></activity>
+        <activity android:name="com.zxb.secai.ui.login.LoginActivity"
+            android:theme="@style/my"></activity>
 
         <activity
             android:name="com.zxb.secai.ui.detail.FeedDetailActivity"

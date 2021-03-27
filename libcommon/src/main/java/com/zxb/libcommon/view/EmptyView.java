@@ -16,7 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.zxb.libcommon.R;
-
+//公共的空布局
 public class EmptyView extends LinearLayout {
     private ImageView icon;
     private TextView title;
