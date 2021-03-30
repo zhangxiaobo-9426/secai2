@@ -1798,6 +1798,7 @@ id buffer_view
 id buttonPanel
 id cancel_action
 id cancel_button
+id capture_album
 id capture_tips
 id card_overlap
 id center

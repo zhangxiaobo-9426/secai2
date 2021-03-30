@@ -2,14 +2,23 @@ package com.zxb.secai.ui.publish;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.ContentUris;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.media.MediaScannerConnection;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Looper;
+import android.provider.DocumentsContract;
+import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.util.Rational;
 import android.util.Size;
@@ -35,6 +44,7 @@ import androidx.camera.core.VideoCaptureConfig;
 import androidx.core.app.ActivityCompat;
 import androidx.databinding.DataBindingUtil;
 
+import com.zxb.libcommon.utils.MediaFile;
 import com.zxb.secai.R;
 import com.zxb.secai.databinding.ActivityLayoutCaptureBinding;
 import com.zxb.secai.view.RecordView;
@@ -48,6 +58,7 @@ import java.util.Map;
 
 public class CaptureActivity extends AppCompatActivity {
     public static final int REQ_CAPTURE = 10001;
+    public static final int CHOOSE_PHOTO = 10008;
     private ActivityLayoutCaptureBinding mBinding;
     private static final String[] PERMISSIONS = new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO};
     private static final int PERMISSION_CODE = 1000;
@@ -60,12 +71,13 @@ public class CaptureActivity extends AppCompatActivity {
     private ImageCapture imageCapture;
     private VideoCapture videoCapture;
     private TextureView textureView;
-    private boolean takingPicture;
-    private String outputFilePath;
+    private boolean takingPicture,phtotoImag;
+    private String outputFilePath,outputFilePath1;
     public static final String RESULT_FILE_PATH = "file_path";
     public static final String RESULT_FILE_WIDTH = "file_width";
     public static final String RESULT_FILE_HEIGHT = "file_height";
     public static final String RESULT_FILE_TYPE = "file_type";
+    private String imagepath;
 
     public static void startActivityForResult(Activity activity) {
         Intent intent = new Intent(activity, CaptureActivity.class);
@@ -120,6 +132,21 @@ public class CaptureActivity extends AppCompatActivity {
                 videoCapture.stopRecording();
             }
         });
+
+        mBinding.captureAlbum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_PICK, null);
+                intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
+//                intent.putExtra(RESULT_FILE_PATH, outputFilePath);
+//                //当设备处于竖屏情况时，宽高的值 需要互换，横屏不需要
+//                intent.putExtra(RESULT_FILE_WIDTH, resolution.getHeight());
+//                intent.putExtra(RESULT_FILE_HEIGHT, resolution.getWidth());
+//                intent.putExtra(RESULT_FILE_TYPE, !takingPicture);
+                startActivityForResult(intent, CHOOSE_PHOTO);
+
+            }
+        });
     }
 
     private void showErrorToast(@NonNull String message) {
@@ -129,10 +156,46 @@ public class CaptureActivity extends AppCompatActivity {
             runOnUiThread(() -> Toast.makeText(CaptureActivity.this, message, Toast.LENGTH_SHORT).show());
         }
     }
+    private String getImagePath(Uri uri, String selection) {
+        String path = null;
+        // 通过Uri和selection来获取真实的图片路径
+        Cursor cursor = getContentResolver().query(uri, null, selection, null, null);
+        if (cursor != null) {
+            if (cursor.moveToFirst()) {
+                path = cursor.getString(cursor.getColumnIndex(MediaStore.Images.Media.DATA));
+            }
+            cursor.close();
+        }
+        return path;
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode ==CHOOSE_PHOTO && resultCode == RESULT_OK) {
+            if(Build.VERSION.SDK_INT >= 19){    //在sdk版本大于19时采用这种方法获取图片
+                handleImageOnKitKat(data);
+                Intent intent = new Intent();
+                intent.putExtra(RESULT_FILE_PATH, imagepath);
+                //当设备处于竖屏情况时，宽高的值 需要互换，横屏不需要
+                intent.putExtra(RESULT_FILE_WIDTH, resolution.getHeight());
+                intent.putExtra(RESULT_FILE_HEIGHT, resolution.getWidth());
+                intent.putExtra(RESULT_FILE_TYPE, phtotoImag);
+                setResult(RESULT_OK, intent);
+                finish();
+            }
+            else{
+                handleImageBeforeKitKat( data );   //低版本则使用此方法（这两个都需要自己创建）
+                Intent intent = new Intent();
+                intent.putExtra(RESULT_FILE_PATH, imagepath);
+                //当设备处于竖屏情况时，宽高的值 需要互换，横屏不需要
+                intent.putExtra(RESULT_FILE_WIDTH, resolution.getHeight());
+                intent.putExtra(RESULT_FILE_HEIGHT, resolution.getWidth());
+                intent.putExtra(RESULT_FILE_TYPE, phtotoImag);
+                setResult(RESULT_OK, intent);
+                finish();
+            }
+        }
         if (requestCode == PreviewActivity.REQ_PREVIEW && resultCode == RESULT_OK) {
             Intent intent = new Intent();
             intent.putExtra(RESULT_FILE_PATH, outputFilePath);
@@ -145,6 +208,58 @@ public class CaptureActivity extends AppCompatActivity {
         }
     }
 
+
+    //4.4版本之前可以直接获取uri
+    private void handleImageBeforeKitKat(Intent data) {
+        Uri uri = data.getData();
+        imagepath = getImagePath( uri, null );
+        displayImage2(imagepath);
+    }
+
+//    4.4之后的版本，需要对uri进行处理
+    @TargetApi( 19 )
+    private void handleImageOnKitKat(Intent data) {
+        imagepath = null;
+        Uri uri = data.getData();
+        if(DocumentsContract.isDocumentUri( this, uri )){
+            String docId = DocumentsContract.getDocumentId( uri );
+            //document类型处理方法-media文件，通过douument id处理
+            if("com.android.providers.media.documents".equals( uri.getAuthority() )){
+                String id = docId.split( ":" )[1];  //解析出数字格式的id
+                String selection = MediaStore.Images.Media._ID + "=" + id;
+                imagepath = getImagePath(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, selection);
+            }
+            else if("com.android.providers.downloads.documents".equals( uri.getAuthority() )){
+                Uri contentUri = ContentUris.withAppendedId( Uri.parse( "content://downloads/public_downloads" ), Long.valueOf( docId ) );
+                imagepath = getImagePath(contentUri, null);
+            }
+        }
+        //content类型处理方法，用普通方法处理
+        else if("content".equalsIgnoreCase( uri.getScheme() )){
+            imagepath = getImagePath(uri, null);
+        }
+        //file类型处理方法，直接获取图片路径
+        else if("file".equalsIgnoreCase( uri.getScheme() )){
+            imagepath = uri.getPath();
+        }
+        //将图片显示
+        displayImage2(imagepath);
+    }
+
+
+    private void displayImage2(String imagePath) {
+        if(imagePath != null){
+            if(MediaFile.isImageFileType(imagePath)){
+                phtotoImag=false;
+//                PreviewActivity.startActivityForResult(this, imagePath, phtotoImag, "完成");
+            }
+            if (MediaFile.isVideoFileType(imagePath)){
+                phtotoImag=true;
+//                PreviewActivity.startActivityForResult(this, imagePath, phtotoImag, "完成");
+            }
+        }
+        else Toast.makeText( this, "faild to get image", Toast.LENGTH_SHORT ).show();
+    }
     private void onFileSaved(File file) {
         outputFilePath = file.getAbsolutePath();
         String mimeType = takingPicture ? "image/jpeg" : "video/mp4";
@@ -152,6 +267,7 @@ public class CaptureActivity extends AppCompatActivity {
         PreviewActivity.startActivityForResult(this, outputFilePath, !takingPicture, "完成");
     }
 
+    //检查权限
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -259,7 +375,8 @@ public class CaptureActivity extends AppCompatActivity {
             }
         });
 
-        //上面配置的都是我们期望的分辨率
+
+        //上面配置的都是期望的分辨率
         List<UseCase> newUseList = new ArrayList<>();
         newUseList.add(preview);
         newUseList.add(imageCapture);

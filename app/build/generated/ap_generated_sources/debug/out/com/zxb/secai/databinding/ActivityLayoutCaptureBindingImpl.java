@@ -17,6 +17,7 @@ public class ActivityLayoutCaptureBindingImpl extends ActivityLayoutCaptureBindi
         sViewsWithIds.put(R.id.texture_view, 1);
         sViewsWithIds.put(R.id.capture_tips, 2);
         sViewsWithIds.put(R.id.record_view, 3);
+        sViewsWithIds.put(R.id.capture_album, 4);
     }
     // views
     @NonNull
@@ -27,10 +28,11 @@ public class ActivityLayoutCaptureBindingImpl extends ActivityLayoutCaptureBindi
     // Inverse Binding Event Handlers
 
     public ActivityLayoutCaptureBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
     }
     private ActivityLayoutCaptureBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (android.widget.ImageView) bindings[4]
             , (android.widget.TextView) bindings[2]
             , (com.zxb.secai.view.RecordView) bindings[3]
             , (android.view.TextureView) bindings[1]

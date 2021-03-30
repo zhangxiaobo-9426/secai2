@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,6 +18,9 @@ import java.lang.Object;
 
 public abstract class ActivityLayoutCaptureBinding extends ViewDataBinding {
   @NonNull
+  public final ImageView captureAlbum;
+
+  @NonNull
   public final TextView captureTips;
 
   @NonNull
@@ -26,8 +30,10 @@ public abstract class ActivityLayoutCaptureBinding extends ViewDataBinding {
   public final TextureView textureView;
 
   protected ActivityLayoutCaptureBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView captureTips, RecordView recordView, TextureView textureView) {
+      ImageView captureAlbum, TextView captureTips, RecordView recordView,
+      TextureView textureView) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.captureAlbum = captureAlbum;
     this.captureTips = captureTips;
     this.recordView = recordView;
     this.textureView = textureView;

@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class StatusBar {
+public class  StatusBar {
     /**
      * 6.0级以上的沉浸式布局
      *
