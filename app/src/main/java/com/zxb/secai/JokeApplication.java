@@ -17,7 +17,8 @@ public class JokeApplication extends Application {
         super.onCreate();
 //        ApiService.init("http://123.56.232.18:8080/serverdemo", null);
 //        ApiService.init("http://192.168.11.115:8080/serverdemo", null);
-        ApiService.init("http://47.117.124.90:8080/serverdemo", null);
+//        ApiService.init("http://47.117.124.90:8080/serverdemo", null);
+        ApiService.init("http://47.102.206.229:8088/serverdemo", null);
 
         CrashReport.initCrashReport(getApplicationContext(), "eb455a94a3", true);
     }

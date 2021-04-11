@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\BaiduNetdiskDownload\\androiddemo\\secai\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "D:\\BaiduNetdiskDownload\\androiddemo\\secai2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\15507\\.gradle\\caches\\transforms-2\\files-2.1\\8dd60c12365866a758729388c9269df3\\media-1.0.1\\res\\values-v24\\values-v24.xml",
