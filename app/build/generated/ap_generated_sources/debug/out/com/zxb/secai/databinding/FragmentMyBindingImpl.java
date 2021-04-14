@@ -17,10 +17,13 @@ public class FragmentMyBindingImpl extends FragmentMyBinding  {
         sViewsWithIds.put(R.id.action_logout, 9);
         sViewsWithIds.put(R.id.go_detail, 10);
         sViewsWithIds.put(R.id.card_overlap, 11);
-        sViewsWithIds.put(R.id.user_feed, 12);
-        sViewsWithIds.put(R.id.user_comment, 13);
-        sViewsWithIds.put(R.id.user_favorite, 14);
-        sViewsWithIds.put(R.id.user_history, 15);
+        sViewsWithIds.put(R.id.card_overlap_two, 12);
+        sViewsWithIds.put(R.id.user_feed, 13);
+        sViewsWithIds.put(R.id.user_comment, 14);
+        sViewsWithIds.put(R.id.user_favorite, 15);
+        sViewsWithIds.put(R.id.user_history, 16);
+        sViewsWithIds.put(R.id.card_overlap3, 17);
+        sViewsWithIds.put(R.id.user_game, 18);
     }
     // views
     @NonNull
@@ -33,13 +36,15 @@ public class FragmentMyBindingImpl extends FragmentMyBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentMyBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 19, sIncludes, sViewsWithIds));
     }
     private FragmentMyBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
             , (androidx.appcompat.widget.AppCompatImageView) bindings[9]
             , (com.zxb.secai.view.PPImageView) bindings[2]
             , (androidx.cardview.widget.CardView) bindings[11]
+            , (androidx.cardview.widget.CardView) bindings[17]
+            , (androidx.cardview.widget.CardView) bindings[12]
             , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[6]
             , (android.widget.TextView) bindings[7]
@@ -47,10 +52,11 @@ public class FragmentMyBindingImpl extends FragmentMyBinding  {
             , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[3]
             , (android.widget.TextView) bindings[8]
-            , (android.widget.TextView) bindings[13]
             , (android.widget.TextView) bindings[14]
-            , (android.widget.TextView) bindings[12]
             , (android.widget.TextView) bindings[15]
+            , (android.widget.TextView) bindings[13]
+            , (android.widget.TextView) bindings[18]
+            , (android.widget.TextView) bindings[16]
             );
         this.avatar.setTag(null);
         this.description.setTag(null);

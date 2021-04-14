@@ -75,6 +75,9 @@
         <activity android:name="com.zxb.secai.ui.find.TagFeedListActivity" />
         <activity android:name="com.zxb.secai.ui.my.ProfileActivity" />
         <activity android:name="com.zxb.secai.ui.my.UserBehaviorListActivity" />
+        <activity
+            android:name="com.zxb.secai.ui.my.GameActivity"
+            android:theme="@style/MyGameAppTheme" />
 
         <!-- 注册SDKActivity -->
         <activity

@@ -49,6 +49,9 @@
     <string name="fragment_my_comment">评论</string>
     <string name="fragment_my_favorite">收藏</string>
     <string name="fragment_my_history">观看历史</string>
+    <string name="fragment_my_game">解压游戏</string>
+    <string name="fragment_my_customer_service">客服</string>
+    <string name="fragment_my_map">心理地图</string>
     <string name="fragment_my_logout">确定要继续退出吗？</string>
     <string name="fragment_my_logout_ok">确定</string>
     <string name="fragment_my_logout_cancel">取消</string>

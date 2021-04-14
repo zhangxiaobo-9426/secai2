@@ -29,6 +29,12 @@ public abstract class FragmentMyBinding extends ViewDataBinding {
   public final CardView cardOverlap;
 
   @NonNull
+  public final CardView cardOverlap3;
+
+  @NonNull
+  public final CardView cardOverlapTwo;
+
+  @NonNull
   public final TextView description;
 
   @NonNull
@@ -59,6 +65,9 @@ public abstract class FragmentMyBinding extends ViewDataBinding {
   public final TextView userFeed;
 
   @NonNull
+  public final TextView userGame;
+
+  @NonNull
   public final TextView userHistory;
 
   @Bindable
@@ -66,13 +75,16 @@ public abstract class FragmentMyBinding extends ViewDataBinding {
 
   protected FragmentMyBinding(Object _bindingComponent, View _root, int _localFieldCount,
       AppCompatImageView actionLogout, PPImageView avatar, CardView cardOverlap,
-      TextView description, TextView fansCount, TextView followCount, AppCompatImageView goDetail,
-      TextView likeCount, TextView name, TextView scoreCount, TextView userComment,
-      TextView userFavorite, TextView userFeed, TextView userHistory) {
+      CardView cardOverlap3, CardView cardOverlapTwo, TextView description, TextView fansCount,
+      TextView followCount, AppCompatImageView goDetail, TextView likeCount, TextView name,
+      TextView scoreCount, TextView userComment, TextView userFavorite, TextView userFeed,
+      TextView userGame, TextView userHistory) {
     super(_bindingComponent, _root, _localFieldCount);
     this.actionLogout = actionLogout;
     this.avatar = avatar;
     this.cardOverlap = cardOverlap;
+    this.cardOverlap3 = cardOverlap3;
+    this.cardOverlapTwo = cardOverlapTwo;
     this.description = description;
     this.fansCount = fansCount;
     this.followCount = followCount;
@@ -83,6 +95,7 @@ public abstract class FragmentMyBinding extends ViewDataBinding {
     this.userComment = userComment;
     this.userFavorite = userFavorite;
     this.userFeed = userFeed;
+    this.userGame = userGame;
     this.userHistory = userHistory;
   }
 

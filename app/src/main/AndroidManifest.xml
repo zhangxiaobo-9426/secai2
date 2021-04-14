@@ -68,6 +68,8 @@
         <activity android:name="com.zxb.secai.ui.my.ProfileActivity"></activity>
 
         <activity android:name="com.zxb.secai.ui.my.UserBehaviorListActivity"></activity>
+        <activity android:name="com.zxb.secai.ui.my.GameActivity"
+            android:theme="@style/MyGameAppTheme"></activity>
 
 
         <!-- 注册SDKActivity -->

@@ -42,5 +42,7 @@
     <orderEntry type="library" exported="" name="Gradle: error_prone_annotations-2.2.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: j2objc-annotations-1.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: animal-sniffer-annotations-1.17" level="project" />
+    <orderEntry type="module" module-name="libnavannotation" exported="" />
+    <orderEntry type="module" module-name="libnavannotation" exported="" />
   </component>
 </module>

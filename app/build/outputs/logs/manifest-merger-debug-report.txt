@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
 MERGED from [:libnetwork] D:\BaiduNetdiskDownload\androiddemo\secai2\libnetwork\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:libcommon] D:\BaiduNetdiskDownload\androiddemo\secai2\libcommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.3] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\82f04cebf9a2df0b2f17bece67331019\databinding-adapters-3.5.3\AndroidManifest.xml:17:1-24:12
@@ -64,20 +64,20 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] C:\Users\15507\.g
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\a447e9fbd4392dff80a51d09fb0dd0e5\jetified-SmartRefreshHeader-1.1.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.github.chrisbanes:PhotoView:2.3.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1cec5464986371c9625f121eea5de637\PhotoView-2.3.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\6936847acf8a63fef6ec83144f18f6d6\oss-android-sdk-2.9.5\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
 	package
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-94:12
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:11-69
@@ -142,7 +142,7 @@ ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManife
 	android:name
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:17:19-67
 application
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:20:5-92:19
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:20:5-94:19
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\0125549fc652af11c4b5203a36d672fa\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\0125549fc652af11c4b5203a36d672fa\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
 MERGED from [androidx.camera:camera-extensions:1.0.0-alpha01] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\f024caac7062f14611ef955da7aca8e5\camera-extensions-1.0.0-alpha01\AndroidManifest.xml:24:5-28:19
@@ -263,40 +263,46 @@ activity#com.zxb.secai.ui.my.UserBehaviorListActivity
 ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:70:9-90
 	android:name
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:70:19-78
-activity#com.tencent.tauth.AuthActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:74:9-87:20
-	android:screenOrientation
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:78:13-49
-	android:launchMode
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:76:13-44
-	android:noHistory
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:77:13-37
-	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:75:13-58
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent101941206
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:79:13-86:29
-action#android.intent.action.VIEW
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:80:17-69
-	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:80:25-66
-category#android.intent.category.DEFAULT
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:82:17-76
-	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:82:27-73
-category#android.intent.category.BROWSABLE
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:83:17-78
-	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:83:27-75
-data
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:85:17-59
-	android:scheme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:85:23-56
-activity#com.tencent.connect.common.AssistActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:88:9-90:75
+activity#com.zxb.secai.ui.my.GameActivity
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:71:9-72:62
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:90:13-72
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:72:13-50
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:89:13-69
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:71:19-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:76:9-89:20
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:80:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:78:13-44
+	android:noHistory
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:77:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent101941206
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:81:13-88:29
+action#android.intent.action.VIEW
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:82:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:84:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:85:17-78
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:85:27-75
+data
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:87:17-59
+	android:scheme
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:87:23-56
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:90:9-92:75
+	android:theme
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:92:13-72
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:91:13-69
 uses-sdk
 INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
