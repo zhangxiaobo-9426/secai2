@@ -44,5 +44,9 @@
     <orderEntry type="library" exported="" name="Gradle: animal-sniffer-annotations-1.17" level="project" />
     <orderEntry type="module" module-name="libnavannotation" exported="" />
     <orderEntry type="module" module-name="libnavannotation" exported="" />
+    <orderEntry type="module" module-name="libnavannotation" exported="" />
+    <orderEntry type="module" module-name="libnavannotation" exported="" />
+    <orderEntry type="module" module-name="libnavannotation" exported="" />
+    <orderEntry type="module" module-name="libnavannotation" exported="" />
   </component>
 </module>

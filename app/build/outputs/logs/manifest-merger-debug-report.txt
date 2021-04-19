@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
 MERGED from [:libnetwork] D:\BaiduNetdiskDownload\androiddemo\secai2\libnetwork\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:libcommon] D:\BaiduNetdiskDownload\androiddemo\secai2\libcommon\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.3] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\82f04cebf9a2df0b2f17bece67331019\databinding-adapters-3.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.3] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\8f606a04201dd42647fb053f1291e98d\databinding-runtime-3.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [com.tencent.bugly:crashreport:3.3.9] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\4a5ffe5b32b4f1cc2b6456f20aea357c\crashreport-3.3.9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:crashreport:3.3.91] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\acd7f1ac13099894307d4d1b124fd333\crashreport-3.3.91\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\78db710c0e9d6a1fa2bd6903c348481c\jetified-navigation-ui-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\0125549fc652af11c4b5203a36d672fa\material-1.1.0-alpha10\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -64,20 +64,20 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] C:\Users\15507\.g
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\a447e9fbd4392dff80a51d09fb0dd0e5\jetified-SmartRefreshHeader-1.1.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.github.chrisbanes:PhotoView:2.3.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\1cec5464986371c9625f121eea5de637\PhotoView-2.3.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\6936847acf8a63fef6ec83144f18f6d6\oss-android-sdk-2.9.5\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
-INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
 	package
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-96:12
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:1-98:12
 		INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:2:11-69
@@ -129,20 +129,28 @@ MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches
 MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\6936847acf8a63fef6ec83144f18f6d6\oss-android-sdk-2.9.5\AndroidManifest.xml:13:5-76
 	android:name
 		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:14:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:15:22-66
 uses-permission#android.permission.READ_LOGS
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:14:5-68
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:16:5-68
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:14:22-65
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:16:22-65
 uses-feature#android.hardware.camera
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:16:5-60
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:18:5-60
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:16:19-57
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:18:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:17:5-70
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:19:5-70
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:17:19-67
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:19:19-67
 application
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:20:5-94:19
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:22:5-96:19
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\0125549fc652af11c4b5203a36d672fa\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\0125549fc652af11c4b5203a36d672fa\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
 MERGED from [androidx.camera:camera-extensions:1.0.0-alpha01] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\f024caac7062f14611ef955da7aca8e5\camera-extensions-1.0.0-alpha01\AndroidManifest.xml:24:5-28:19
@@ -176,133 +184,133 @@ MERGED from [com.aliyun.dpa:oss-android-sdk:2.9.5] C:\Users\15507\.gradle\caches
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:28:9-35
 	android:label
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:26:9-41
 	android:roundIcon
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:25:9-54
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:27:9-54
 	android:icon
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:23:9-43
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:25:9-43
 	android:allowBackup
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:24:9-35
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:27:9-40
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:29:9-40
 	android:usesCleartextTraffic
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:28:9-44
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:21:9-53
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:23:9-53
 uses-library#org.apache.http.legacy
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:30:9-32:40
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:required
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:31:13-50
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:33:13-50
 activity#com.zxb.secai.MainActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:34:9-43:20
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:36:9-45:20
 	android:label
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:38:13-45
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:37:13-44
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:39:13-44
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:35:13-54
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:37:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:38:13-42:29
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:39:17-69
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:41:17-77
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:43:27-74
 activity#com.zxb.secai.ui.publish.PublishActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:45:9-47:61
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:47:9-49:61
 	android:screenOrientation
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:49:13-49
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:46:13-68
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:48:13-68
 activity#com.zxb.secai.ui.publish.CaptureActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:48:9-51:55
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:50:9-53:55
 	android:screenOrientation
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:50:13-49
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:52:13-49
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:51:13-43
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:53:13-43
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:49:13-68
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:51:13-68
 activity#com.zxb.secai.ui.publish.PreviewActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:53:9-56:55
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:55:9-58:55
 	android:screenOrientation
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:55:13-49
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:57:13-49
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:56:13-43
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:58:13-43
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:54:13-68
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:56:13-68
 activity#com.zxb.secai.ui.login.LoginActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:58:9-59:50
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:60:9-61:50
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:59:13-38
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:61:13-38
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:58:19-70
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:60:19-70
 activity#com.zxb.secai.ui.detail.FeedDetailActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:61:9-64:58
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:63:9-66:58
 	android:screenOrientation
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:63:13-49
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:65:13-49
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:64:13-46
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:66:13-46
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:62:13-70
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:64:13-70
 activity#com.zxb.secai.ui.find.TagFeedListActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:66:9-87
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:68:9-87
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:66:19-75
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:68:19-75
 activity#com.zxb.secai.ui.my.ProfileActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:68:9-81
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:70:9-81
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:68:19-69
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:70:19-69
 activity#com.zxb.secai.ui.my.UserBehaviorListActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:70:9-90
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:72:9-90
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:70:19-78
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:72:19-78
 activity#com.zxb.secai.ui.my.GameActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:71:9-72:62
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:73:9-74:62
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:72:13-50
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:74:13-50
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:71:19-66
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:73:19-66
 activity#com.tencent.tauth.AuthActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:76:9-89:20
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:78:9-91:20
 	android:screenOrientation
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:82:13-49
 	android:launchMode
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:78:13-44
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:80:13-44
 	android:noHistory
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:79:13-37
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:81:13-37
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:77:13-58
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:79:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent101941206
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:81:13-88:29
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:83:13-90:29
 action#android.intent.action.VIEW
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:82:17-69
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:84:17-69
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:82:25-66
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:84:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:84:17-76
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:86:17-76
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:84:27-73
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:86:27-73
 category#android.intent.category.BROWSABLE
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:85:17-78
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:87:17-78
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:85:27-75
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:87:27-75
 data
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:87:17-59
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:89:17-59
 	android:scheme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:87:23-56
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:89:23-56
 activity#com.tencent.connect.common.AssistActivity
-ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:90:9-92:75
+ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:92:9-94:75
 	android:theme
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:92:13-72
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:94:13-72
 	android:name
-		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:91:13-69
+		ADDED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml:93:13-69
 uses-sdk
 INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\BaiduNetdiskDownload\androiddemo\secai2\app\src\main\AndroidManifest.xml
@@ -315,8 +323,8 @@ MERGED from [androidx.databinding:databinding-adapters:3.5.3] C:\Users\15507\.gr
 MERGED from [androidx.databinding:databinding-adapters:3.5.3] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\82f04cebf9a2df0b2f17bece67331019\databinding-adapters-3.5.3\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:3.5.3] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\8f606a04201dd42647fb053f1291e98d\databinding-runtime-3.5.3\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:3.5.3] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\8f606a04201dd42647fb053f1291e98d\databinding-runtime-3.5.3\AndroidManifest.xml:22:5-44
-MERGED from [com.tencent.bugly:crashreport:3.3.9] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\4a5ffe5b32b4f1cc2b6456f20aea357c\crashreport-3.3.9\AndroidManifest.xml:5:5-7:41
-MERGED from [com.tencent.bugly:crashreport:3.3.9] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\4a5ffe5b32b4f1cc2b6456f20aea357c\crashreport-3.3.9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.3.91] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\acd7f1ac13099894307d4d1b124fd333\crashreport-3.3.91\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.3.91] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\acd7f1ac13099894307d4d1b124fd333\crashreport-3.3.91\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\78db710c0e9d6a1fa2bd6903c348481c\jetified-navigation-ui-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\78db710c0e9d6a1fa2bd6903c348481c\jetified-navigation-ui-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\15507\.gradle\caches\transforms-2\files-2.1\0125549fc652af11c4b5203a36d672fa\material-1.1.0-alpha10\AndroidManifest.xml:20:5-44

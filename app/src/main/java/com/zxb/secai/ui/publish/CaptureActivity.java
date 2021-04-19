@@ -138,6 +138,11 @@ public class CaptureActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_PICK, null);
                 intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
+
+
+//                Intent intent = new Intent(Intent.ACTION_VIEW);
+//                intent.setType("vnd.android.cursor.dir/video");
+
 //                intent.putExtra(RESULT_FILE_PATH, outputFilePath);
 //                //当设备处于竖屏情况时，宽高的值 需要互换，横屏不需要
 //                intent.putExtra(RESULT_FILE_WIDTH, resolution.getHeight());
